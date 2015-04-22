@@ -18,8 +18,9 @@ $xymon->red();
 $xymon->send;
 
 # Graph
+```
 my $object = new Xymon::Graph($TESTNAME);
 $object->insert("ds0" , '4');
 $object->insert("ds1" , '12');
 $object->send;
-
+```
